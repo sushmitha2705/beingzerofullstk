@@ -1,1 +1,7 @@
-<p>pricing works!</p>
+<h1 class="bg-success">WELCOME TO THE PRICING PAGE</h1>
+<p>count : {{count}}</p>
+<div *ngFor="let usr of users.arr">
+    <div>{{usr.title}}</div>
+    <!-- div>{{usr.name}} ** {{usr.company.name}}</!-- div-->
+    <img src="{{usr.url}}" height="200px" width="200px" class="img-thumbnail">
+</div>
